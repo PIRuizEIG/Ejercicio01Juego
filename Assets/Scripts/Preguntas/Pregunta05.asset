@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e2d7b4029ead7459318ac9ab0771cc, type: 3}
+  m_Name: Pregunta05
+  m_EditorClassIdentifier: 
+  textoPregunta: "\xBFQu\xE9 es la memoria RAM en un ordenador?"
+  respuestas:
+  - Un tipo de almacenamiento permanente donde se guardan los archivos y programas.
+  - "La memoria que almacena datos de forma temporal para que el procesador los use
+    r\xE1pidamente."
+  - "Un componente que se encarga de gestionar la conexi\xF3n a internet."
+  - Un dispositivo externo que sirve para ampliar la capacidad de almacenamiento.
+  respuestaCorrecta: 1

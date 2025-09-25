@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e2d7b4029ead7459318ac9ab0771cc, type: 3}
+  m_Name: Pregunta06
+  m_EditorClassIdentifier: 
+  textoPregunta: "\xBFQu\xE9 es un driver (controlador) en un ordenador?"
+  respuestas:
+  - Un programa que permite que el sistema operativo se comunique con el hardware.
+  - "Un componente f\xEDsico que almacena datos de forma temporal."
+  - Un software antivirus que protege el equipo de virus.
+  - Un tipo de memoria permanente para guardar archivos.
+  respuestaCorrecta: 0
