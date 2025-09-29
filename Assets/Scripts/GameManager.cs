@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour
     [Tooltip("Velocidad del reloj")] public float velocidadTemporizador = 7.5f;
     [Tooltip("Errores máximos permitidos")] public int erroresMaximos = 3;
     [Header("Imagenes")]
-    [Tooltip("Imagen del Reloj")] public Image imagenReloj;
+    [Tooltip("Imagen del Reloj superior")] public Image imagenReloj;
+    [Tooltip("Imagen del Reloj inferior")] public Image imagenInferior;
     [Tooltip("Imagen del Ahorcado")] public Image imagenAhorcado;
     [Tooltip("Sprite Ahorcado Vacío")] public Sprite ahorcado0;
     [Tooltip("Sprite Ahorcado con 1 error")] public Sprite ahorcado1;
@@ -98,6 +99,7 @@ public class GameManager : MonoBehaviour
     {
         temporizador -= Time.deltaTime / velocidadTemporizador;
         imagenReloj.fillAmount = temporizador;
+        imagenInferior.fillAmount = 1 - temporizador;
         if (temporizador <= 0)
         {
             PausarJuego();

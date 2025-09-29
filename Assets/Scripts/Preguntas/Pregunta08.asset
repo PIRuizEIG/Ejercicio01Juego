@@ -10,10 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7e2d7b4029ead7459318ac9ab0771cc, type: 3}
-  m_Name: Pregunta04
+  m_Name: Pregunta08
   m_EditorClassIdentifier: 
-  textoPregunta: "\xBFCu\xE1l de los siguientes es un sistema operativo?"
+  textoPregunta: "\xBFCu\xE1l es el componente de hardware que procesa y renderiza
+    datos visuales para mostrarlos en un monitor?"
   respuestas:
-  - FIrefox
-  - Windows
-  respuestaCorrecta: 1
+  - Unidad Central de Procesamiento (CPU)
+  - Memoria RAM
+  - "Tarjeta gr\xE1fica (GPU)"
+  - Disco duro (HDD)
+  respuestaCorrecta: 2
