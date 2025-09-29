@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7e2d7b4029ead7459318ac9ab0771cc, type: 3}
-  m_Name: Pregunta02
+  m_Name: Pregunta10
   m_EditorClassIdentifier: 
-  textoPregunta: APU Hardware o Software
+  textoPregunta: "\xBFCu\xE1l de los siguientes NO es un dispositivo de almacenamiento?"
   respuestas:
-  - Hardware
-  - Software
-  - Ninguna de las dos
-  respuestaCorrecta: 0
+  - SSD
+  - Pendrive USB
+  - Router
+  - CD-ROM
+  respuestaCorrecta: 2

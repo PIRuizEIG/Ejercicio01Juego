@@ -254,7 +254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &104023516
 RectTransform:
   m_ObjectHideFlags: 0
@@ -649,6 +649,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0febcfa325cdcac48aa3ba85666e1e89, type: 2}
   - {fileID: 11400000, guid: 4793e1d240685a3468b4f0f88c2e24b0, type: 2}
   - {fileID: 11400000, guid: 6bcb1998899953049b9cd96f6d5faf7f, type: 2}
+  - {fileID: 11400000, guid: 71328410b57307b4a90e066d834c4f25, type: 2}
+  - {fileID: 11400000, guid: 4f62e88cb8c7f924a9a06bdced1a8341, type: 2}
+  - {fileID: 11400000, guid: 39f65d1d63be38a44a91fe0d9b86b82e, type: 2}
+  - {fileID: 11400000, guid: 3beda9706bbbf914d9539c888dbd8ee6, type: 2}
+  - {fileID: 11400000, guid: be9ef8b5bad889b48b0a3700594fd0eb, type: 2}
   pausa: 0
   preguntaActual: 0
   preguntasTotales: 0
@@ -1495,7 +1500,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.0008544922, y: 0}
   m_SizeDelta: {x: -1743, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &789825097
@@ -1726,7 +1731,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1795,7 +1800,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &954508612
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2030,7 +2035,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.00024414062, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1100600281
@@ -2885,8 +2890,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 590181071}
   m_HandleRect: {fileID: 590181070}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 0.9888962
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
