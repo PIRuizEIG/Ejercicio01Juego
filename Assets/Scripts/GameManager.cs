@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
     [Tooltip("Sprite cara Triste")] public Sprite caraTriste;
     [Tooltip("Panel inicial")] public GameObject panelLogo;
     [Tooltip("Panel de respuesta")] public GameObject panelRespuesta;
+    [Tooltip("Botón cerrar")] public GameObject btnCerrar;
+    [Tooltip("Botón reiniciar")] public GameObject btnReiniciar;
     [Header("Configurar texto")]
     [Tooltip("Texto tiempo agotado")]
     public TextMeshProUGUI textoFinReloj;
@@ -51,11 +53,13 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Time.timeScale = 1;
         panelRespuesta.gameObject.SetActive(false);
         PausarJuego();
         preguntasTotales = preguntas.Count;
-        DesactivarTexto();        
+        DesactivarTexto();
         ActualizarAhorcado();
+        EstadoBotones(false);
     }
 
     // Update is called once per frame
@@ -118,6 +122,7 @@ public class GameManager : MonoBehaviour
         DesactivarTexto();
         textoGameOver.enabled = true;
         Time.timeScale = 0;
+        EstadoBotones(true);
     }
 
     /// <summary>
@@ -129,6 +134,7 @@ public class GameManager : MonoBehaviour
         textoFinal.enabled = true;
         panelLogo.gameObject.SetActive(true);
         Time.timeScale = 0;
+        EstadoBotones(true);
     }
 
     /// <summary>
@@ -256,5 +262,11 @@ public class GameManager : MonoBehaviour
                 imagenAhorcado.sprite = ahorcado3;
                 break;
         }
+    }
+
+    private void EstadoBotones(bool estado)
+    {
+        btnCerrar.SetActive(estado);
+        btnReiniciar.SetActive(estado);
     }
 }
