@@ -149,13 +149,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 624730359}
   - {fileID: 1100600280}
   - {fileID: 1790535112}
   - {fileID: 2121088075}
   - {fileID: 1719742976}
   - {fileID: 306278910}
   - {fileID: 1143399614}
+  - {fileID: 624730359}
   m_Father: {fileID: 934745646}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   temporizador: 1
   descanso: 0
-  velocidadTemporizador: 10
+  velocidadTemporizador: 20
   erroresMaximos: 3
   imagenReloj: {fileID: 306278911}
   imagenInferior: {fileID: 1143399615}
@@ -1196,7 +1196,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1506177704}
   m_Father: {fileID: 954508612}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
@@ -1502,7 +1503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: -1743, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &789825097
@@ -1831,7 +1832,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 719541135}
-  - {fileID: 1506177704}
   - {fileID: 117250911}
   - {fileID: 1458551452}
   - {fileID: 978351066}
@@ -2729,11 +2729,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 954508612}
+  m_Father: {fileID: 719541135}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 448, y: 324}
+  m_AnchoredPosition: {x: 0, y: 72}
   m_SizeDelta: {x: 281.586, y: 257.45}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1506177705
@@ -3174,7 +3174,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 590181070}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.9999973
+  m_Size: 0.9999945
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
