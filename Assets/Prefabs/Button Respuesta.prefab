@@ -190,8 +190,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 371838111fd4f3b4d8ed5770b0b18631, type: 2}
-  m_sharedMaterial: {fileID: -6873867944720267556, guid: 371838111fd4f3b4d8ed5770b0b18631, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 934dde8fd29ff0e4a86590a854908cda, type: 2}
+  m_sharedMaterial: {fileID: -1193077495578170590, guid: 934dde8fd29ff0e4a86590a854908cda, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
